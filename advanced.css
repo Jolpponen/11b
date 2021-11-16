@@ -1,0 +1,42 @@
+.boxi 
+		{
+		box-shadow: 5px 10px red;
+		}
+h2 		{
+		text-shadow: 2px 2px 2px blue;
+		}
+#Testi {
+		background-image: url("https://media2.giphy.com/media/gZ2CWEAfhTbCE/giphy.gif");
+		background-size: cover;
+}
+.linkki1 {
+color: blue;
+transition: 1s;
+}
+.linkki1:hover {
+		color: red;
+		
+	
+}
+
+.linkki2{
+color: red;
+transition: 1s;
+}
+.linkki2:hover {
+		color: blue;
+	
+
+}
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+    
+  }
+  h2 {
+  color: pink;
+  }
+  h1{
+  color: pink;
+  }
+}
